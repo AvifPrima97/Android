@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".LocationOwner.RetailerDashboardFragment"
+    android:background="@color/White">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="@drawable/round_background"
+        android:padding="20dp"
+        android:layout_marginTop="-60dp"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/run2"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:id="@+id/full_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:includeFontPadding="false"
+        android:text="Data Sensor"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_data"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="470dp"
+        android:background="@drawable/round_button"
+        android:text="Data Sensor"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_motion"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="580dp"
+        android:background="@drawable/round_button"
+        android:text="Motion Capture"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".LocationOwner.RetailerProfileFragment"
+    android:background="@color/White">
+
+<!-- TODO: Update blank fragment layout -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="410dp"
+        android:background="@drawable/round_background"
+        android:padding="20dp"
+        android:layout_marginTop="-60dp"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="149dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="620dp"
+        android:background="@drawable/round_button"
+        android:text="Login"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="149dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="620dp"
+        android:background="@drawable/round_button"
+        android:text="Logout "
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/full_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:includeFontPadding="false"
+        android:text="It's About You"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="87dp"
+        android:inputType="textPersonName"/>
+
+    <Button
+        android:id="@+id/nameSaveButton"
+        android:layout_width="60dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="87dp"
+        android:text="@string/save"
+        android:background="@drawable/round_button"/>
+
+    <EditText
+        android:id="@+id/ageEditText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/age"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="127dp"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/ageSaveButton"
+        android:layout_width="60dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="127dp"
+        android:text="@string/save"
+        android:background="@drawable/round_button"/>
+
+    <EditText
+        android:id="@+id/genderEditText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Male or Female"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="167dp"
+        android:inputType="textPersonName"/>
+
+    <Button
+        android:id="@+id/genderSaveButton"
+        android:layout_width="60dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="167dp"
+        android:text="@string/save"
+        android:background="@drawable/round_button"/>
+
+    <EditText
+        android:id="@+id/weightEditText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Weight"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="207dp"
+        android:inputType="textPersonName"/>
+
+    <Button
+        android:id="@+id/weightSaveButton"
+        android:layout_width="60dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="207dp"
+        android:text="@string/save"
+        android:background="@drawable/round_button"/>
+
+    <EditText
+        android:id="@+id/heightEditText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Height"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="247dp"
+        android:inputType="textPersonName"/>
+
+    <Button
+        android:id="@+id/heightSaveButton"
+        android:layout_width="60dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="247dp"
+        android:text="@string/save"
+        android:background="@drawable/round_button"/>
+
+    <TextView
+        android:id="@+id/nameTitle"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="400dp"
+        android:text="@string/name"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Name"
+        android:textSize="18sp"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="130dp"/>
+
+    <TextView
+        android:id="@+id/ageTitle"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:layout_marginStart="50dp"
+        android:text="@string/age"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/ageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="24"
+        android:textSize="18sp"
+        android:layout_marginTop="440dp"
+        android:layout_marginStart="130dp"/>
+
+    <TextView
+        android:id="@+id/genderTitle"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="480dp"
+        android:text="Gender"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/genderTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Male"
+        android:textSize="18sp"
+        android:layout_marginTop="480dp"
+        android:layout_marginStart="130dp"/>
+
+    <TextView
+        android:id="@+id/weightTitle"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="520dp"
+        android:text="Weight"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/weightTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Weight"
+        android:textSize="18sp"
+        android:layout_marginTop="520dp"
+        android:layout_marginStart="130dp"/>
+
+    <TextView
+        android:id="@+id/heightTitle"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="560dp"
+        android:text="Weight"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/heightTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Height"
+        android:textSize="18sp"
+        android:layout_marginTop="560dp"
+        android:layout_marginStart="130dp"/>
+
+</FrameLayout>

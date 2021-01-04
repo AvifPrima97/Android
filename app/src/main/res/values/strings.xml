@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">mqtt3</string>
+    <string name="stitch_client_app_id">nyobastitch-xzojz</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error_field_required">error field required</string>
+    <string name="error_invalid_email">error invalid email</string>
+    <string name="error_invalid_password">error invalid password</string>
+    <string name="error_incorrect_password">error incorrect password</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="student_checkbox">I\'m a student</string>
+    <string name="save">Save</string>
+</resources>

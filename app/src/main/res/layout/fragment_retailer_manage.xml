@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".LocationOwner.RetailerManageFragment"
+    android:background="@color/White">
+<!--    android:id="@+id/fragment_container">-->
+    <!-- TODO: Update blank fragment layout -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:background="@drawable/round_background"
+        android:padding="20dp"
+        android:layout_marginTop="-60dp"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/run2"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:id="@+id/full_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:includeFontPadding="false"
+        android:text="History Data"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/historysensor"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="580dp"
+        android:textStyle="bold"
+        android:background="@drawable/round_button"
+        android:text="Data Sensor History" />
+
+</FrameLayout>
